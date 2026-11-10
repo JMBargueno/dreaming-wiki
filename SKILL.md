@@ -85,4 +85,3 @@ When asked to build a vault:
 
 - The method: [Karpathy's LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - Explainer: askglitch, "Build a Second Brain"
-- Setup-first variant: [charlie947/ai-second-brain](https://github.com/charlie947/ai-second-brain)

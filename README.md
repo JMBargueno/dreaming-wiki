@@ -59,17 +59,6 @@ Then tell the agent: *Set up my dreaming wiki.*
 
 Requirements: an LLM agent with file access, and a scheduler (or run the prompts manually). Obsidian is optional but recommended: it is the IDE for the vault (wikilinks, graph view, backlinks). The agent only needs plain files.
 
-## How it differs from other implementations
-
-| | charlie947/ai-second-brain | Dreaming Wiki |
-|---|---|---|
-| Karpathy raw/wiki split | yes | yes (`sources/` + `knowledge/`/`projects/`) |
-| Setup wizard | yes | yes |
-| Nightly self-maintenance | no | dreaming at 02:00 |
-| Weekly digest | no | Sundays |
-| Contradiction lint | no | surfaced, never silenced |
-| AI-history ingest | ChatGPT/Claude exports | the agent's own sessions, no export needed |
-
 ## Ground rules
 
 - `sources/` is immutable: captures are never edited, only re-captured.
@@ -82,7 +71,6 @@ Requirements: an LLM agent with file access, and a scheduler (or run the prompts
 
 - The method: [Karpathy's LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) (April 2026)
 - Explainer: askglitch, "Build a Second Brain"
-- Setup-first variant: [charlie947/ai-second-brain](https://github.com/charlie947/ai-second-brain)
 
 Built and run in production on a Hermes Agent deployment (nightly dreaming + weekly digest, E2EE-synced Obsidian vault).
 
