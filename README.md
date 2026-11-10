@@ -1,5 +1,9 @@
 # Dreaming Wiki
 
+<p align="center">
+  <img src="img/logo.svg" alt="Dreaming Wiki" width="200">
+</p>
+
 > A second brain that maintains itself while you sleep.
 
 Karpathy's LLM Wiki is a folder of markdown plus an LLM that writes and maintains it, instead of re-deriving answers from raw documents on every query. The folder is the easy part. Wikis die because nobody maintains them: sources go stale, notes contradict each other, and the index rots.
